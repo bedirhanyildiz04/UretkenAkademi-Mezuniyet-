@@ -13,5 +13,5 @@
 .modal-img {
   width: 100%;
   height: auto;
-  max-height: 80vh; /* Ekran yüksekliğinin %80'i kadar olacak */
+  max-height: 80vh;
 }
