@@ -1,0 +1,17 @@
+/* Gallery.css */
+.gallery-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* Ekran yüksekliğinin %80'i kadar olacak */
+}

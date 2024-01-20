@@ -1,0 +1,42 @@
+/* About.css */
+#meram {
+  background: linear-gradient(267deg, #066069 0%, #1e7d62 38.49%, #132200 100%);
+  filter: drop-shadow(0px 20px 20px rgba(0, 255, 4, 0.16));
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  padding: 20px 0;
+  color: white;
+}
+
+.big {
+  transition: transform 0.3s ease-in-out;
+}
+
+.big:hover {
+  transform: scale(1.1);
+}
+
+#gallery-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#gallery-link a {
+  color: #1e7d62;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#gallery-link a:hover {
+  color: #066069;
+}
+
+.card {
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

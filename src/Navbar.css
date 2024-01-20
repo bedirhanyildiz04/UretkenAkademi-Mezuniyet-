@@ -1,0 +1,104 @@
+body{
+  padding-top: 80px;
+}
+
+#navcont {
+  background: linear-gradient(267deg, #066069 0%, #1e7d62 38.49%, #8aca38 100%);
+  filter: drop-shadow(0px 5px 10px rgba(0, 82, 31, 0.16));
+  z-index: 10000;
+}
+
+.navbar-collapse {
+  background-color: rgba(0, 0, 0, 0.8); /* Siyah arka plana biraz şeffaflık ekleyebilirsiniz */
+  z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  margin: auto;
+  padding: auto;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  margin-top: 8px;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 15px;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #f8f9fa;
+}
+
+.form-control {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.btn-outline-light {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-light:hover {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.container {
+  padding: 0;
+}
+
+/* Ek olarak eklediğim yeni stil */
+.navbar-toggler {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent; /* Arka plan rengi kaldırıldı */
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: #f8f9fa;
+}
+
+.navbar-collapse {
+  background-color: #066069; /* Menü arkaplan rengi */
+  z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
